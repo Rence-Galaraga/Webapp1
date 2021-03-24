@@ -2,7 +2,7 @@ const express = require('express');
   const app = express()
   const fetch = require('node-fetch');
   const mongoose = require('mongoose');
-  const Blog = require('./models/blog');
+  const Blog = require('./models/blogs');
 
   const db = 'mongodb+srv://rence:rl990731@sacluster.6eq2c.mongodb.net/mydb?retryWrites=true&w=majority';
   mongoose.connect(db, {useNewUrlParser: true, useUnifiedTopology: true})
