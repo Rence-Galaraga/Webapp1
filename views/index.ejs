@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" >
+
+    <title>Landing page</title>
+  </head>
+  <body>
+  
+    <div class="container" style="max-width: 500px; margin: auto; align-items: center; margin-top: 200px;">
+      <!-- Content here -->
+
+      <div class="row">
+        <div class="col">
+         <center><h1 style="font-size: 50px;">Data-Base</h1></center>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <center>
+         <a href="https://github.com/Rence-Galaraga/Webapp1"><img src="github-logo.png" width="30" height="30" style="margin-right: 10px;"></a>
+         <a href="https://www.linkedin.com/in/rence-lennard-galaraga-308b80209/"><img src="linkedin.png" width="30" height="30"></a>
+        </center>
+        </div>
+      </div>
+
+      <Center>
+        <form action="/home" method="POST">
+      <div class="row" style="margin-top: 20px;">
+        <div class="col">
+          <div class="form-group">
+            <select class="custom-select" id="timezone" name="timezone">
+              <option selected="" disabled>Select Timezone</option>
+              <option value="1">Philippines</option>
+              <option value="2">Egypt</option>
+              <option value="3">Japan</option>
+              <option value="4">Canada</option>
+              <option value="5">Russia</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a href="/home"><button class="btn btn-primary">Join</button></a>
+        </div>
+      </div>
+    </form>
+    </Center>
+
+    <p id="test"></p>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="/server.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
